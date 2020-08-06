@@ -1,15 +1,90 @@
-header{width:100%;
-    }
-.container{ display:flex;
-    justify-content:space-between;
-    align-items:center;
-    flex-direction:row;}
 
-#logoheader{width:20px;
-    height:30px;
+
+
+body{background-color:lightblue;}
+
+
+header{width:100%;
+  height:5rem;
+   background-color:lightblue;
+ display:flex;
+  justify-content:space-around;
+align-items:center;      
+  border-radius:20px;
+  padding:64px;
+}
+.container{ display:flex;
+justify-content:space-around;
+align-items:center;
+flex-direction:row;
+
+border-radius:90px;}
+
+#logoheader{width:130px;
+height:90px;
+border-radius:10px;
+float:left;
 
 }
 
-span{font-size:100px;
+#contact{font-size:30px;
 color:brown;
-font-weight:bold;}
+font-weight:bold;
+font-family:'Roboto', sans-serif;
+}
+
+#carouselExampleIndicators{width:24em;
+  height:16em;
+padding:110px;
+margin-right:100px;
+
+}
+
+.nav-item{margin-left:90px;
+margin-right:90px;
+font-size:25px;
+font-weight:bold;
+background-color:azure;
+
+}
+
+.nav-link{color:brown;}
+
+#main{display:flex;
+flex-direction:row;
+justify-content:space-between;
+}
+
+.jumbotron{width:60%;
+
+height:24em;
+text-align:center;
+background-color:lightblue;
+}
+
+.divforcarousel{display:flex;
+justify-content:center;
+}
+
+.imagessection{display:flex;
+justify-content:center;
+flex-direction:row;
+
+}
+
+
+
+.imagessection img{width:170px;
+ 
+  border-radius:10px;
+}
+
+.imagessection div{background-color:white;
+text-align:center;
+width:180px;
+margin-left:2em;
+margin-right:2em;
+border-radius:10px;}
+
+#bootnav{padding:20px;}
+

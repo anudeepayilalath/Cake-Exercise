@@ -1,0 +1,15 @@
+header{width:100%;
+    }
+.container{ display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-direction:row;}
+
+#logoheader{width:20px;
+    height:30px;
+
+}
+
+span{font-size:100px;
+color:brown;
+font-weight:bold;}

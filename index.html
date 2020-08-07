@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Responsive Cake webpage</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Coming+Soon&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link href="style.css" rel="stylesheet" type="text/css">
  
@@ -20,7 +22,9 @@
 <header>
   
     <img id="logoheader" src="https://www.brandcrowd.com/gallery/brands/pictures/picture13618694294854.jpg">
-    <nav><span id="contact">Contact</span></nav>
+    <nav><span id="contact">Contact</span>
+      <i class="fab fa-whatsapp"></i>
+    </nav>
 
   
 </header>
@@ -28,37 +32,63 @@
 
 
 
-
 <ul class="nav justify-content-center" id="bootnav">
     <li class="nav-item">
-      <a class="nav-link active" href="#">Active</a>
+      <a class="nav-link active" href="#">Home</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Gallery</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="#">Link</a>
+      <a class="nav-link" href="#">Cakes</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link disabled" href="#">Disabled</a>
+      <a class="nav-link disabled" href="#">Ordering</a>
     </li>
     <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">About</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
+        <a class="nav-link" href="#">Contact</a>
       </li>
   </ul>
+
+
+  <div class="spinner-grow text-primary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-secondary" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-success" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-danger" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-warning" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-info" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-light" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  <div class="spinner-grow text-dark" role="status">
+    <span class="sr-only">Loading...</span>
+  </div>
+  
+
 
 
   <div id="main">
 
 <div class="jumbotron">
-  <h1 class="display-4">Hello, world!</h1>
-  <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+  <h1 class="display-4">Slice Of Cake!</h1>
+  <p class="lead">The Slice Of Cake Company is the world's largest retailer of cake decorating supplies, stocking the basics from sugarpaste, cake boxes and boards to the latest in innovative products. Working closely with world renowned cake artists and designers, we help bring revolutionary products to market, meeting the demands of thousands of customers on a daily basis.</p>
   <hr class="my-4">
-  <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
-  <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+  <a class="btn btn-primary btn-lg" id="lmbutton" href="#" role="button">Learn more</a>
 </div>
 
 <div class="divforcarousel">
@@ -91,45 +121,73 @@
 </div>
 </div>
 
-<div class="imagessection">
 
- <div>
-     <img src="https://media.bakingo.com/sites/default/files/chocolate@2x_0.png">
-     <span>Chocolate</span>
- </div>
-
-  <div>
-      <img src="https://media.bakingo.com/sites/default/files/vanilla@2x_2_0.png">
-      <span>Vanilla</span>
-  </div>
-
-  <div>
-      <img src="https://media.bakingo.com/sites/default/files/black_forest@2x_0.png">
-  <span>Black Forest</span>
-  </div>
-
-
-
-
-  <div>
-      <img src="https://media.bakingo.com/sites/default/files/fruit@2x_1_0.png">
-  <span>Fruit</span>
-  </div>
-
-  <div>
-      <img src="https://media.bakingo.com/sites/default/files/stawberry@2x_0.png">
-  <span>Strawberry</span>
-  </div>
-
-  <div>
-      <img src="https://media.bakingo.com/sites/default/files/butterscotch@2x_0.png">
-  <span>Honey</span>
-  </div>
-
-
+<div class="spinner-grow text-primary" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-secondary" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-success" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-danger" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-warning" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-info" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-light" role="status">
+  <span class="sr-only">Loading...</span>
+</div>
+<div class="spinner-grow text-dark" role="status">
+  <span class="sr-only">Loading...</span>
 </div>
 
 
+
+<div class="carddiv">
+<div class="card text-white bg-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Blackberry</div>
+  <div class="card-body">
+    <img src="https://github.com/anudeepayilalath/html-css-git-exercises/blob/master/week3/1-website/images/Cakes/cake-with-blackberries.jpg?raw=true">
+  </div>
+</div>
+<div class="card text-white bg-secondary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Macaroon</div>
+  <div class="card-body">
+    <<img src="https://github.com/anudeepayilalath/html-css-git-exercises/blob/master/week3/1-website/images/Cakes/cake-with-macarons.jpg?raw=true">
+  </div>
+</div>
+<div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+  <div class="card-header">Cherry</div>
+  <div class="card-body">
+    <img src="https://github.com/anudeepayilalath/html-css-git-exercises/blob/master/week3/1-website/images/Cakes/not-technically-a-cake.jpg?raw=true">
+  </div>
+</div>
+<div class="card text-white bg-danger mb-3" style="max-width: 18rem;">
+  <div class="card-header">Wedding</div>
+  <div class="card-body">
+    <img src="https://github.com/anudeepayilalath/html-css-git-exercises/blob/master/week3/1-website/images/Cakes/wedding-cake.jpg?raw=true">
+  </div>
+</div>
+
+</div>
+</div>
+
+<footer>
+
+<span id="footeritem">Sitemap</span>
+<span id="footeritem">Contact</span>
+<span id="footeritem">Delivery</span>
+<span id="footeritem">Contact</span>
+<span id="footeritem">Delivery</span>
+
+
+</footer>
 
 
 

@@ -12,6 +12,9 @@ color:darkgreen;
 }
 
 nav{display:flex;
+  border:dashed 3px black;
+  border-radius:5px;
+  background-color:gainsboro;
 }
 
 header{width:100%;
@@ -39,9 +42,9 @@ header{width:100%;
 
 }
 
-#contact{font-size:25px;
+#contact{font-size:24px;
          color:maroon;
-         font-weight:bold;
+         font-weight:600;
          font-family:'Roboto', sans-serif;
          margin-right:5px;
 }
@@ -103,7 +106,7 @@ border-radius:10px;
 }
 
 #bootnav{padding:5px;
-border:dashed 3px brown;
+border:dashed 5px brown;
 }
 
 .carddiv{display:flex;
@@ -125,7 +128,7 @@ border:none;
 }
 
 footer{background-image: linear-gradient(lightblue, thistle, lightblue);
-
+border:dashed 3px brown;
 margin:20px;
 display:flex;
 justify-content:center;

@@ -11,7 +11,11 @@ body{background-image: linear-gradient(lightblue, skyblue, lightblue);
 color:darkgreen;
 }
 
-nav{display:flex;
+
+.bootdiv{background-color:rosybrown;
+color:red;}
+
+#firstnav{display:flex;
   border:dashed 3px black;
   border-radius:5px;
   background-color:lightgrey;
@@ -55,7 +59,7 @@ header{width:100%;
 
 }
 
-.nav-item{margin-left:90px;
+/*.nav-item{margin-left:90px;
           margin-right:90px;
           font-size:20px;
           font-weight:bold;
@@ -63,12 +67,12 @@ header{width:100%;
           border:solid 2px black;
 }
 
-.nav-link{color:brown;}
+.nav-link{color:brown;}*/
 
 #main{display:flex;
 flex-direction:row;
 justify-content:space-between;
-padding:5em;
+padding:2em;
 
 }
 
@@ -166,7 +170,12 @@ padding:0;
 height:8em;
 padding:0;
 margin:0;}
-}
+
+
+.display-4{font-size:5vw;}
+
+.spinner-grow{display:none;}
+#contact{font-size:2.5vh;}}
 
 @media only screen and (max-width:1305px)
 { 
@@ -180,14 +189,12 @@ footer span{font-size:10px;
 padding:0;
 margin:0;}
 
-.lead{font-size:15px;
-line-height:10px;}
+.lead{font-size:3vw;
+}
 
-.jumbotron{width:60%;
+.jumbotron{width:100%;
   height:auto;
   text-align:center;
 }
 
-.display-4{font-size:50px;
-text-align:center;}
 }
